@@ -89,15 +89,22 @@ Layer คือ ระบบจัดเรียงภาพ ซ้อนทั
 ### Color Bit Depth
 ค่าความละเอียดสี/ความลึกของสี ภาพที่มี Color Bit Depth มากกว่า ย่อมให้ความละเอียดในการไล่เรียงสี (Dynamic Range) ดีกว่า
 
- + 1-bit (Monochrome / Binary) 1-bit = 2ยกกำลัง1 = 2 (Black & White)
- + 8-bit Gray (Grayscale) 8-bit = 2ยกกำลัง8 = 256 Level Grayscale
- + 8-bit Color (256 Colors) 8-bit = 2 8 = 256 Colors
- + 24-bit Color (True Colors) 256ยกกำลัง3 = 16.7 Million Colors
+ + 1-bit (Monochrome / Binary)
+ + 8-bit Gray (Grayscale)
+ + 8-bit Color (256 Colors)
+ + 24-bit Color (True Colors)
  + 32-bit Alpha Channel (Transparency)
 
-
-
-
+| Bit Depth | Calculation | Number of Colors | Common Name(s) |
+|:----------|:-----------:|     :---:      |     :---:       |
+| 1 bit     |   2^1 (2)   |     2 Colors      |    Monochrome / Binary |
+| 2 bit     | 2^2 (2x2) | 4 Colors  | - |
+| 4 bit | 2^4 (2x2x2x2) | 16 Colors  | - |
+| 8 bit | 2^8 (2x2x2x2x2x2x2x2) | 256 Colors | Index Color / 256 Colors | 
+| 16 bit | 2^16 | 65,536 Colors | High Colors |
+| 24 bit | 2^24 | 16.7 Million Colors | True Colors |
+| 32 bit | 2^32 | 16.7 Million + Alpha | Transparency |
+| 48 bit | 2^48 | 281 Trillion Colors | Deep Colors |
 
 
 
