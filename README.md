@@ -106,6 +106,81 @@ Layer คือ ระบบจัดเรียงภาพ ซ้อนทั
 | 32 bit | 2^32 | 16.7 Million + Alpha | Transparency |
 | 48 bit | 2^48 | 281 Trillion Colors | Deep Colors |
 
+### Dithering
+หมายถึง การเฉลี่ย/เดาสุ่มจุดสี โดยใช้ Noise หรือ Pattern เพื่อทดแทนสีบางสีที่ จอภาพ หรือ การพิมพ์ ไม่สามารถแสดงผลได 
+เช่น การเฉลี่ยใช้จุดสีขาวและดำผสมกัน แทนสีเทาอ่อน/เทาเข้ม และอาจใช้ประโยชน์ในการทำเส้นโค้งให้ดูเรียบขึ้น (ลดรอยหยัก)
 
+![Screenshot from 2023-08-14 18-22-17](https://github.com/rushmi0/Multimedia/assets/120770468/9f3d0e99-fcfe-436f-b7d5-d92050356a50)
 
+# Image File Format
+
+**BMP : Bitmap**
+  - ไฟล์ภาพมาตรฐานเก่าแก่ ของ Windows
+  - เป็นไฟล์ Bitmap ที่มีขนาดใหญ่
+  - รองรับโหมดสี RGB, Index, Grayscale
+  - ไม่รองรับ Alpha Channel
+  - คุณภาพสู้ JPEG ไม่ได
+
+**JPEG : Joint Photographic Experts Group**
+  - ไฟล์ภาพทั่วไป เป็นที่นิยมในปัจจุบัน
+  - รองรับโหมดสี RGB, CMYK, Grayscale
+  - ไม่รองรับ Alpha Channel
+  - สามารถกำหนดคุณภาพการบีบอัดได้ตามต้องการ
+
+**GIF : Graphic Interchange Format**
+  - แสดงผลในแบบ Index Color (256 Colors)
+  - แสดงสีได้น้อย จึงใช้กับงานที่ต้องการเฉพาะสีพื้น
+  - ไฟล์เล็ก ดาวน์โหลดเร็ว
+  - นิยมนำมาทำ Gif Animation
+
+**PNG : Portable Network Graphic**
+  - ไฟล์มีขนาดเล็ก แต่คุณภาพดี
+  - เหมาะสำหรับงาน Website และงานภาพโปร่งใส
+  - รองรับโหมดสี RGB, Index, Grayscale
+  - รองรับ Alpha Channel
+  - ไม่รองรับ CMYK จึงไม่เหมาะแก่การพิมพ์
+
+**PSD : Photoshop Document**
+  - ไฟล์พื้นฐานของโปรแกรม Adobe Photoshop
+  - เป็นไฟล์ต้นฉบับ เพื่อแก้ไขไฟล์ในแต่ละ Layer
+
+**TIFF : Tag Image File Format**
+  - ความยืดหยุ่นสูง ใช้ได้กับโปรแกรมกราฟิกทุกประเภท
+  - รองรับโหมดสี RGB, CMYK, CIE Lab, Index, Grayscale
+  - รองรับ Alpha Channel
+  - นิยมเป็นไฟล์ไว้ใช้ส่งโรงพิมพ
+
+**PICT : Picture**
+  - ไฟล์ภาพมาตรฐานของ Mac
+  - รองรับโหมดสี RGB, Index, Grayscale
+  - รองรับ Alpha Channel
+  - ปัจจุบัน ไม่ค่อยนิยมใช้กันแล้ว
+
+**AI : Adobe Illustrator**
+  - ไฟล์พื้นฐานของโปรแกรม Adobe Illustrator
+  - เก็บข้อมูลเป็นภาพ Vector
+  - เป็นไฟล์ต้นฉบับ เพื่อแก้ไขไฟล์ในแต่ละ Layer
+
+**EPS : Encapsulated PostScript**
+  - เป็นไฟล์ที่มีทั้งข้อมูล Vector และ Bitmap
+  - นิยมเป็นไฟล์ไว้ใช้ส่งโรงพิมพ
+
+**PDF : Portable Document Format**
+  - ไฟล์เอกสารที่มีพื้นฐานบน PostScript
+  - เก็บข้อมูลต่างๆ ที่จำเป็นไปด้วย เช่น Font, ขนาดหน้าของไฟล์, ข้อมูล Vector และ Bitmap จึงไม่ต้องกังวลเรื่อง Font
+  - ขนาดเล็ก แต่มีข้อมูลครบทุกอย่าง
+
+# Font
+
+### Serif Font
+ + อ่านง่ายบน สิ่งพิมพ
+ + อ่านยากบน เว็บ
+ + ใช้กับข้อความยาวๆ
+ + ทางการ
+
+### Sans Serif Font
+ + อ่านง่ายบน เว็บ
+ + อ่านยากบน สิ่งพิมพ
+ + ใช้พาดหัวเรื่องตัวใหญ่
+ + ทันสมัย
 
