@@ -202,6 +202,3 @@ Layer คือ ระบบจัดเรียงภาพ ซ้อนทั
 
 4. เล่นกับความคมชัด ชัดตื้น-ชัดลึก ของภาพ
    ![Screenshot from 2023-08-14 19-02-55](https://github.com/rushmi0/Multimedia/assets/120770468/a9deb950-da43-4479-bddd-109bdccc3a2c)
-
-
-
