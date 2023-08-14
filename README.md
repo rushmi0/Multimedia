@@ -190,3 +190,18 @@ Layer คือ ระบบจัดเรียงภาพ ซ้อนทั
  + ใช้พาดหัวเรื่องตัวใหญ่
  + ทันสมัย
 
+<br>
+
+# เทคนิควางตัวหนังสือลงบนภาพ
+
+1. เพิ่มความเปรียบต่าง (Contrast) ระหว่าง สีและความสว่าง
+   ![Screenshot from 2023-08-14 18-58-25](https://github.com/rushmi0/Multimedia/assets/120770468/9e6ed440-2408-4702-9267-620794752d4d)
+
+3. เพิ่มความเปรียบต่าง (Contrast) ของ ขนาดและการจัดวาง
+   ![Screenshot from 2023-08-14 19-00-45](https://github.com/rushmi0/Multimedia/assets/120770468/9a792f3f-2ddf-4176-b6d8-5ad61808d483)
+
+4. เล่นกับความคมชัด ชัดตื้น-ชัดลึก ของภาพ
+   ![Screenshot from 2023-08-14 19-02-55](https://github.com/rushmi0/Multimedia/assets/120770468/a9deb950-da43-4479-bddd-109bdccc3a2c)
+
+
+
