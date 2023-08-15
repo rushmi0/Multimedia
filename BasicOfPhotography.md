@@ -3,9 +3,7 @@
 ### กล้อง Digital ประเภทต่างๆ
 
  + Compact Camera
-
  + Mirrorless Camera
-
  + DSLR
 
 # ไฟล์ JPEG คืออะไร
