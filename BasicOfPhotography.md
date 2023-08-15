@@ -54,7 +54,7 @@
 ## แบบที่ 1 : วางจุดเด่นบนจุดตัด 9 ช่อง
 ![Screenshot from 2023-08-15 17-38-07](https://github.com/rushmi0/Multimedia/assets/120770468/2312c0c9-ce0d-4f22-a41b-f48a5b86284e)
 
-## แบบที่ 2 : แบ่งภาพออกเป็น 2 : 1
+## แบบที่ 2 : แบ่งภาพออกเป็น 2ต่อ1
 ![Screenshot from 2023-08-15 17-39-11](https://github.com/rushmi0/Multimedia/assets/120770468/1e3c95c1-19ba-4e0b-a565-5d46b99ef79b)
 
 ## ไฟล์ JPEG และ RAW แตกต่างกันอย่างไร
