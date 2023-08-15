@@ -1,6 +1,7 @@
 # การถ่ายภาพเบื้องต้น
 
-### การถ่ายภาพเบื้องต้น
+### กล้อง Digital ประเภทต่างๆ
+
  + Compact Camera
    ![compact-cameras](https://github.com/rushmi0/Multimedia/assets/120770468/6269bf9f-599e-41b1-8b89-c91d3452c155)
 
